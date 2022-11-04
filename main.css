@@ -96,3 +96,30 @@ body{
 
 
 /* .user-options */
+.navbar .user-options{    
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.navbar .user-options .icon{
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navbar .user-dp{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar .user-dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
